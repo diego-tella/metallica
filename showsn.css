@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    text-align:center;
+}
+h1{
+    color: white;
+}
+
+#fanpage{
+    color:white;
+    font-size: 45px;
+    font-family: Poiret One;
+}
+
+#menu{
+    font-size: 40px;
+    color:white;
+}
+a{
+    color:white;
+    font-size: 30px;
+    font-family: Poiret One;
+
+}
+h2{
+    color:white;font-size: 50px;
+    text-align: left;
+    font-family: Josefin Sans;
+    font-weight: bold;}
+
+li{
+    color: white;
+    text-align: left;
+    font-family: Poiret One;
+}
+#div{
+    width: 400px;
+}

@@ -1,0 +1,117 @@
+   body {
+        background-color: black;
+        font-family: Arial, sans-serif;
+        margin: 0;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #fanpage {
+        color: white;
+        font-size: 45px;
+        font-family: Poiret One;
+        
+    }
+
+    #menu {
+        font-size: 16px;
+        color: white;
+        margin-top: 5px;
+        text-decoration: underline;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+    #info {
+        background-color: #111;
+        padding: 40px;
+        border-radius: 10px;
+    }
+
+    h2 {
+        color: white;
+        font-size: 30px;
+        margin-top: 0;
+        font-family: Josefin Sans;
+    }
+
+    label {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    textarea {
+        resize: vertical;
+        height: 100px;
+    }
+
+    input[type="submit"] {
+        background-color: #444;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #666;
+    }
+
+    /* Adicionar estilos específicos para dispositivos móveis */
+    @media only screen and (max-width: 600px) {
+        #info {
+            padding: 30px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        label {
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            font-size: 14px;
+        }
+
+        .logo {
+            max-width: 100%;
+            height: auto;
+        }
+        #fanpage{
+            margin-bottom: 0;
+            font-size: 25px;
+        }
+    }
